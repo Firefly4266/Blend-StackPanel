@@ -7,15 +7,10 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Height="Auto" Width="Auto">
 
-    <Canvas Background="White">
-        <ScrollViewer Height="640" VerticalAlignment="Bottom">
-            <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-                <Ellipse Fill="#FF1313A0" Stroke="Black" Width="300" Height="220"/>
-                <Ellipse Fill="#FF1313A0" Stroke="Black" Width="300" Height="220"/>
-                <Ellipse Fill="#FF1313A0" Stroke="Black" Width="300" Height="220"/>
-                <Ellipse Fill="#FF1313A0" Stroke="Black" Width="300" Height="220"/>
-                <Ellipse Fill="#FF1313A0" Stroke="Black" Width="300" Height="220"/>
-            </StackPanel>
-        </ScrollViewer>
-    </Canvas>
+    <RelativePanel Background="White">
+        <Ellipse x:Name="blue" Fill="#FF1313A0" HorizontalAlignment="Left" Height="173" Stroke="Black" VerticalAlignment="Top" Width="340" Margin="447,54,-785.4,-227"/>
+        <Ellipse x:Name="yellow" Fill="Yellow" HorizontalAlignment="Left" Height="29" Stroke="Black" VerticalAlignment="Top" Width="144" Margin="202,140,-346,-169" RenderTransformOrigin="0.55,0.607"/>
+        <Ellipse x:Name="red" Fill="Red" HorizontalAlignment="Left" Stroke="Black" Width="120" Margin="536,244,-656,-516"/>
+        <Ellipse x:Name="green" Fill="Green" HorizontalAlignment="Left" Height="371" Stroke="Black" VerticalAlignment="Top" Width="96" Margin="274,224,-370,-595"/>
+    </RelativePanel>
 </Page>
